@@ -1,0 +1,6 @@
+{
+  "name": "CitruSolution of Middle Tennessee",
+  "description": "Professional carpet cleaning, pet stain & odor removal, upholstery cleaning, and area rug cleaning in Nashville and Middle Tennessee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

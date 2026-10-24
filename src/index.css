@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Nunito', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #2B2622;
+  }
+}
+
+/* Custom citrus pulse animation */
+@keyframes citrusGlow {
+  0%, 100% {
+    opacity: 0.15;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.25;
+    transform: scale(1.05) rotate(5deg);
+  }
+}
+
+.citrus-glow-effect {
+  animation: citrusGlow 8s ease-in-out infinite;
+}
